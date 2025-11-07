@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c979eef-1e33-448a-b4b7-9c3b2a654843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/Launcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/DatabaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/UsuarioService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/controller/UserListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/model/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/DatabaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/DatabaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mmds/crud_usuarios_java/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/mmds/crud_usuarios_java/user-form-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mmds/crud_usuarios_java/user-form-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/mmds/crud_usuarios_java/user-list-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/mmds/crud_usuarios_java/user-list-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +52,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Launcher.executor": "Run",
+    "Application.com.mmds.crud_usuarios_java.Launcher.executor": "Run",
+    "JUnit.All in CRUD_USUARIOS_JAVA.executor": "Run",
     "Maven.CRUD_USUARIOS_JAVA [clean].executor": "Run",
     "Maven.CRUD_USUARIOS_JAVA [install].executor": "Run",
     "Maven.CRUD_USUARIOS_JAVA [package].executor": "Run",
@@ -67,13 +61,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -81,17 +75,14 @@
       <recent name="C:\Users\aluno.senai.pjcn\workspace\CRUD_USUARIOS_JAVA\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Launcher" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="envFilePaths">
-        <option value="$PROJECT_DIR$/.env" />
-      </option>
-      <option name="MAIN_CLASS_NAME" value="com.vls.crud_usuarios_java.Launcher" />
+  <component name="RunManager" selected="Application.Launcher">
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mmds.crud_usuarios_java.Launcher" />
       <module name="CRUD_USUARIOS_JAVA" />
       <option name="VM_PARAMETERS" value="--enable-native-access=javafx.graphics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vls.crud_usuarios_java.*" />
+          <option name="PATTERN" value="com.mmds.crud_usuarios_java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,6 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in CRUD_USUARIOS_JAVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUD_USUARIOS_JAVA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Launcher" />
+      <item itemvalue="JUnit.All in CRUD_USUARIOS_JAVA" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Launcher" />
+        <item itemvalue="JUnit.All in CRUD_USUARIOS_JAVA" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

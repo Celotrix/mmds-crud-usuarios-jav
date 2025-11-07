@@ -22,11 +22,12 @@ public class DatabaseService {
 
     public static boolean testarConexao(){
         try(Connection conn = getConnection()){
+            System.out.println("Conexão: online.");
             return conn != null;
         }catch (SQLException e){
             return false;
         }
     }
 
-
+    public void testeConnection(){}
 }
